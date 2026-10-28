@@ -12,6 +12,8 @@ export default function App() {
 
   return (
     <main className="container">
+
+      <h1>CI/CD Practice</h1>
       <h1>MERN Demo 🚀</h1>
       <p>Simple MERN-style project for testing Vercel deployment.</p>
 
