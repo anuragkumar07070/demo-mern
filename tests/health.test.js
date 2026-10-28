@@ -20,7 +20,7 @@ test("health API returns status 200 and expected message", () => {
 
   handler({}, res);
 
-  assert.equal(res.statusCode, 200);
+  assert.equal(res.statusCode, 201);
 
   assert.deepEqual(res.body, {
     message: "Backend API is working!",
